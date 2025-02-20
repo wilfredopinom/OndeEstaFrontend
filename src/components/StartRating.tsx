@@ -1,6 +1,5 @@
 // src/components/StarRating.tsx
 import { useEffect, useState } from "react";
-
 import { RateService } from "../services/rateService";
 import { IconStar, IconStarFilled } from "@tabler/icons-react";
 

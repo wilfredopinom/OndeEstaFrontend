@@ -8,14 +8,15 @@ function Footer() {
       <div>
         <div className="flex justify-center text-teal-600 sm:justify-start dark:text-teal-300">
           
-         <img src="/public/favi.png" alt="icono" style={{width:"70px", height:"70px"}}/>
+         <img src="/public/favi.png" alt="icono"  width ="70px" height= "70px" />
          <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">OndeEsta</span>
         </div>
 
         <p
-          className="mt-6 max-w-md text-center leading-relaxed text-gray-500 sm:max-w-xs sm:text-left dark:text-gray-400"
+          className="mt-0.5 max-w-md text-center leading-relaxed text-gray-500 sm:max-w-xs sm:text-left dark:text-gray-400"
         >
-       Pensando en la comunidad Gallega 🐙 y visitantes✈️ | Diseñado y construido por:
+       Pensando en la comunidad Gallega 🐙 Redidentes 🏡 y visitantes✈️ 
+       <br/> Construido por:
        Wilfredo Pino y el Instituto CEBEM
         </p>
 
@@ -24,7 +25,7 @@ function Footer() {
 
       <div className="grid grid-cols-1 gap-8 sm:grid-cols-2 md:grid-cols-4 lg:col-span-2">
         <div className="text-center sm:text-left">
-          <p className="text-lg font-medium text-gray-900 dark:text-white">About Us</p>
+          <p className="text-lg font-medium text-gray-900 dark:text-white">Nosotros</p>
 
           <ul className="mt-8 space-y-4 text-sm">
             <li>
@@ -51,15 +52,6 @@ function Footer() {
                 href="#"
               >
                 Testimonios
-              </a>
-            </li>
-
-            <li>
-              <a
-                className="text-gray-700 transition hover:text-gray-700/75 dark:text-white dark:hover:text-white/75"
-                href="#"
-              >
-                Careers
               </a>
             </li>
           </ul>

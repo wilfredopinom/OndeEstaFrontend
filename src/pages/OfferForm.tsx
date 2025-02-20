@@ -4,10 +4,10 @@ import { OfferService } from '../services/OfferService'
 import { useNavigate, useParams } from 'react-router-dom'
 import { Temporal } from 'temporal-polyfill'
 import toast from 'react-hot-toast'
-import { CategoryService } from   '../services/CategoryService'
+import { CategoryService } from  '../services/CategoryService'
 import Category from '../models/Category'
 import ErrorMsgData from '../utils/ErrorMsgData'
-import InputForm from '../components/ImputForm'
+import InputForm from '../components/InputForm'
 import TextAreaInputForm from '../components/TextAreaInputForm'; 
 
 // - formulario de creación de 1 oferta
