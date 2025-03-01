@@ -72,7 +72,7 @@ const Register: React.FC = () => {
         <aside className="relative block h-16 lg:order-last lg:col-span-5 lg:h-full xl:col-span-6">
           <img
             alt="Register Background"
-            src="/public/perdidos.webp"
+            src="/perdidos.webp"
             className="absolute inset-0 h-full w-full object-cover"
           />
         </aside>

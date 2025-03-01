@@ -8,7 +8,7 @@ function Footer() {
       <div>
         <div className="flex justify-center text-teal-600 sm:justify-start dark:text-teal-300">
           
-         <img src="/public/favi.png" alt="icono"  width ="70px" height= "70px" />
+         <img src="/favi.png" alt="icono"  width ="70px" height= "70px" />
          <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">OndeEsta</span>
         </div>
 

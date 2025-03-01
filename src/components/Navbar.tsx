@@ -9,8 +9,8 @@ function Navbar() {
   const menuHamburguesaTriger = useRef(null)
   const userLogured  = () =>{
     if(!user) return ''
-    if(isAuthenticated && user?.role === 'admin') return 'Eres admin'
-    if(isAuthenticated) return 'Eres user'
+    if(isAuthenticated && user?.role === 'admin') return //'Eres admin'
+    if(isAuthenticated) return //'Eres user'
   }
 
   const handleCollapse = () => {
@@ -26,7 +26,7 @@ function Navbar() {
 <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
 
   <Link to="/" className="flex items-center space-x-3 rtl:space-x-reverse">
-      <img src="/public/favi.png" className="h-18" alt="Flowbite Logo"/>
+      <img src="/favi.png" className="h-18" alt="Flowbite Logo"/>
       <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">OndeEsta</span>
   </Link>
   <div className="flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse">
