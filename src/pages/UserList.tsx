@@ -6,7 +6,6 @@ interface User{
   name: string
   surname: string
   role: string
-  course: string
   email: string
   active: boolean
   accepNotifications: boolean
